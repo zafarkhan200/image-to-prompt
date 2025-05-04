@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy - Image to Prompt</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #0d1b2a;
+      color: #e0e1dd;
+      line-height: 1.6;
+    }
+    
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+    
+    .header {
+      text-align: center;
+      margin-bottom: 40px;
+      border-bottom: 1px solid #415a77;
+      padding-bottom: 20px;
+    }
+    
+    .header h1 {
+      color: #e0e1dd;
+      margin-bottom: 10px;
+      font-size: 32px;
+    }
+    
+    .header p {
+      color: #778da9;
+      margin-top: 0;
+      font-size: 16px;
+    }
+    
+    .section {
+      margin-bottom: 30px;
+    }
+    
+    .section h2 {
+      color: #e0e1dd;
+      border-bottom: 1px solid #415a77;
+      padding-bottom: 10px;
+      margin-top: 30px;
+    }
+    
+    .section p, .section ul, .section ol {
+      color: #e0e1dd;
+      margin-bottom: 15px;
+    }
+    
+    .section ul, .section ol {
+      padding-left: 20px;
+    }
+    
+    .section li {
+      margin-bottom: 10px;
+    }
+    
+    a {
+      color: #778da9;
+      text-decoration: none;
+      transition: color 0.2s ease;
+    }
+    
+    a:hover {
+      color: #e0e1dd;
+      text-decoration: underline;
+    }
+    
+    .footer {
+      text-align: center;
+      margin-top: 50px;
+      padding-top: 20px;
+      border-top: 1px solid #415a77;
+      color: #778da9;
+      font-size: 14px;
+    }
+    
+    .back-button {
+      display: inline-block;
+      background-color: #415a77;
+      color: #e0e1dd;
+      padding: 10px 20px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 600;
+      margin-top: 20px;
+      transition: all 0.3s ease;
+    }
+    
+    .back-button:hover {
+      background-color: #778da9;
+      transform: translateY(-2px);
+      text-decoration: none;
+    }
+    
+    .emphasis {
+      background-color: rgba(119, 141, 169, 0.2);
+      padding: 15px;
+      border-radius: 6px;
+      border-left: 4px solid #415a77;
+    }
+    
+    /* User data section */
+    .user-data-section {
+      background-color: rgba(119, 141, 169, 0.1);
+      border-radius: 6px;
+      padding: 20px;
+      margin: 30px 0;
+    }
+    
+    .web-notice {
+      text-align: center;
+      padding: 20px;
+    }
+    
+    .web-notice p {
+      margin-bottom: 15px;
+    }
+    
+    .cta-button {
+      display: inline-block;
+      background-color: #ED479E;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: all 0.3s ease;
+    }
+    
+    .cta-button:hover {
+      background-color: #D63384;
+      transform: translateY(-2px);
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Privacy Policy</h1>
+      <p>Last Updated: <span id="last-updated">June 1, 2024</span></p>
+    </div>
+    
+    <div class="section">
+      <p>At Image to Prompt, we take your privacy seriously. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our browser extension.</p>
+      
+      <p>Please read this Privacy Policy carefully. By using the Image to Prompt extension, you consent to the data practices described in this statement.</p>
+    </div>
+    
+    <!-- User data section (only shown when logged in) -->
+    <div id="user-data-section" class="user-data-section">
+      <!-- This will be populated by common.js -->
+    </div>
+    
+    <div class="section">
+      <h2>1. Information We Collect</h2>
+      
+      <h3>1.1 Personal Information</h3>
+      <p>We may collect the following personal information when you create an account or use our service:</p>
+      <ul>
+        <li>Email address</li>
+        <li>Name</li>
+        <li>Usage data (number of prompts generated, language preferences)</li>
+      </ul>
+      
+      <h3>1.2 Images and Generated Content</h3>
+      <p>When you use our service to generate prompts from images:</p>
+      <ul>
+        <li>We temporarily process the images you upload or select</li>
+        <li>We store the generated prompts associated with your account</li>
+      </ul>
+      
+      <div class="emphasis">
+        <p><strong>Important:</strong> We do not permanently store your images on our servers. Images are only temporarily processed to generate prompts and are then deleted from our systems.</p>
+      </div>
+    </div>
+    
+    <div class="section">
+      <h2>2. How We Use Your Information</h2>
+      <p>We use the information we collect for various purposes, including to:</p>
+      <ul>
+        <li>Provide, maintain, and improve our services</li>
+        <li>Process and complete transactions</li>
+        <li>Send you technical notices, updates, security alerts, and support messages</li>
+        <li>Respond to your comments, questions, and requests</li>
+        <li>Monitor and analyze trends, usage, and activities in connection with our services</li>
+        <li>Detect, investigate, and prevent fraudulent transactions and other illegal activities</li>
+        <li>Personalize your experience</li>
+      </ul>
+    </div>
+    
+    <div class="section">
+      <h2>3. Chrome Storage and Local Data</h2>
+      <p>Our extension uses Chrome's storage API to store:</p>
+      <ul>
+        <li>Your login status</li>
+        <li>User preferences</li>
+        <li>Usage statistics</li>
+        <li>Extension settings</li>
+      </ul>
+      
+      <p>This data is stored locally on your device and synced with your Chrome account. We do not have direct access to this data unless you explicitly share it with us (e.g., for support purposes).</p>
+    </div>
+    
+    <div class="section">
+      <h2>4. Data Sharing and Disclosure</h2>
+      <p>We may share your information in the following situations:</p>
+      
+      <h3>4.1 Service Providers</h3>
+      <p>We may share your information with third-party vendors, service providers, and other third parties who perform services on our behalf.</p>
+      
+      <h3>4.2 Legal Requirements</h3>
+      <p>We may disclose your information where required to do so by law or in response to valid requests by public authorities.</p>
+      
+      <h3>4.3 Business Transfers</h3>
+      <p>We may share or transfer your information in connection with, or during negotiations of, any merger, sale of company assets, financing, or acquisition of all or a portion of our business to another company.</p>
+      
+      <h3>4.4 With Your Consent</h3>
+      <p>We may disclose your personal information for any other purpose with your consent.</p>
+    </div>
+    
+    <div class="section">
+      <h2>5. Data Security</h2>
+      <p>We have implemented appropriate technical and organizational security measures designed to protect the security of any personal information we process. However, despite our safeguards and efforts to secure your information, no electronic transmission over the Internet or information storage technology can be guaranteed to be 100% secure.</p>
+    </div>
+    
+    <div class="section">
+      <h2>6. Your Data Protection Rights</h2>
+      <p>Depending on your location, you may have the following rights regarding your personal data:</p>
+      <ul>
+        <li><strong>Right to Access</strong> - You have the right to request copies of your personal data.</li>
+        <li><strong>Right to Rectification</strong> - You have the right to request that we correct any information you believe is inaccurate or complete information you believe is incomplete.</li>
+        <li><strong>Right to Erasure</strong> - You have the right to request that we erase your personal data, under certain conditions.</li>
+        <li><strong>Right to Restrict Processing</strong> - You have the right to request that we restrict the processing of your personal data, under certain conditions.</li>
+        <li><strong>Right to Object to Processing</strong> - You have the right to object to our processing of your personal data, under certain conditions.</li>
+        <li><strong>Right to Data Portability</strong> - You have the right to request that we transfer the data we have collected to another organization, or directly to you, under certain conditions.</li>
+      </ul>
+      
+      <p>To exercise any of these rights, please contact us using the information provided in the "Contact Us" section.</p>
+    </div>
+    
+    <div class="section">
+      <h2>7. Children's Privacy</h2>
+      <p>Our Service is not directed to anyone under the age of 13. We do not knowingly collect personally identifiable information from anyone under the age of 13. If you are a parent or guardian and you are aware that your child has provided us with personal data, please contact us.</p>
+    </div>
+    
+    <div class="section">
+      <h2>8. Changes to This Privacy Policy</h2>
+      <p>We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last Updated" date.</p>
+      
+      <p>You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.</p>
+    </div>
+    
+    <div class="section">
+      <h2>9. Contact Us</h2>
+      <p>If you have any questions about this Privacy Policy, please contact us:</p>
+      <p>Email: <a href="mailto:m.ishaqbannu@gmail.com">m.ishaqbannu@gmail.com</a></p>
+    </div>
+    
+    <div class="footer">
+      <a href="index.html" class="back-button">Back to Home</a>
+      <p>&copy; <span id="current-year">2024</span> Image to Prompt. All rights reserved.</p>
+    </div>
+  </div>
+  
+  <!-- Include web version of common.js -->
+  <script src="common.js"></script>
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy - Image to Prompt</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #0d1b2a;
+      color: #e0e1dd;
+      line-height: 1.6;
+    }
+    
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+    
+    .header {
+      text-align: center;
+      margin-bottom: 40px;
+      border-bottom: 1px solid #415a77;
+      padding-bottom: 20px;
+    }
+    
+    .header h1 {
+      color: #e0e1dd;
+      margin-bottom: 10px;
+      font-size: 32px;
+    }
+    
+    .header p {
+      color: #778da9;
+      margin-top: 0;
+      font-size: 16px;
+    }
+    
+    .section {
+      margin-bottom: 30px;
+    }
+    
+    .section h2 {
+      color: #e0e1dd;
+      border-bottom: 1px solid #415a77;
+      padding-bottom: 10px;
+      margin-top: 30px;
+    }
+    
+    .section p, .section ul, .section ol {
+      color: #e0e1dd;
+      margin-bottom: 15px;
+    }
+    
+    .section ul, .section ol {
+      padding-left: 20px;
+    }
+    
+    .section li {
+      margin-bottom: 10px;
+    }
+    
+    a {
+      color: #778da9;
+      text-decoration: none;
+      transition: color 0.2s ease;
+    }
+    
+    a:hover {
+      color: #e0e1dd;
+      text-decoration: underline;
+    }
+    
+    .footer {
+      text-align: center;
+      margin-top: 50px;
+      padding-top: 20px;
+      border-top: 1px solid #415a77;
+      color: #778da9;
+      font-size: 14px;
+    }
+    
+    .back-button {
+      display: inline-block;
+      background-color: #415a77;
+      color: #e0e1dd;
+      padding: 10px 20px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 600;
+      margin-top: 20px;
+      transition: all 0.3s ease;
+    }
+    
+    .back-button:hover {
+      background-color: #778da9;
+      transform: translateY(-2px);
+      text-decoration: none;
+    }
+    
+    .emphasis {
+      background-color: rgba(119, 141, 169, 0.2);
+      padding: 15px;
+      border-radius: 6px;
+      border-left: 4px solid #415a77;
+    }
+    
+    /* User data section */
+    .user-data-section {
+      background-color: rgba(119, 141, 169, 0.1);
+      border-radius: 6px;
+      padding: 20px;
+      margin: 30px 0;
+    }
+    
+    .web-notice {
+      text-align: center;
+      padding: 20px;
+    }
+    
+    .web-notice p {
+      margin-bottom: 15px;
+    }
+    
+    .cta-button {
+      display: inline-block;
+      background-color: #ED479E;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: all 0.3s ease;
+    }
+    
+    .cta-button:hover {
+      background-color: #D63384;
+      transform: translateY(-2px);
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Privacy Policy</h1>
+      <p>Last Updated: <span id="last-updated">June 1, 2024</span></p>
+    </div>
+    
+    <div class="section">
+      <p>At Image to Prompt, we take your privacy seriously. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our browser extension.</p>
+      
+      <p>Please read this Privacy Policy carefully. By using the Image to Prompt extension, you consent to the data practices described in this statement.</p>
+    </div>
+    
+    <!-- User data section (only shown when logged in) -->
+    <div id="user-data-section" class="user-data-section">
+      <!-- This will be populated by common.js -->
+    </div>
+    
+    <div class="section">
+      <h2>1. Information We Collect</h2>
+      
+      <h3>1.1 Personal Information</h3>
+      <p>We may collect the following personal information when you create an account or use our service:</p>
+      <ul>
+        <li>Email address</li>
+        <li>Name</li>
+        <li>Usage data (number of prompts generated, language preferences)</li>
+      </ul>
+      
+      <h3>1.2 Images and Generated Content</h3>
+      <p>When you use our service to generate prompts from images:</p>
+      <ul>
+        <li>We temporarily process the images you upload or select</li>
+        <li>We store the generated prompts associated with your account</li>
+      </ul>
+      
+      <div class="emphasis">
+        <p><strong>Important:</strong> We do not permanently store your images on our servers. Images are only temporarily processed to generate prompts and are then deleted from our systems.</p>
+      </div>
+    </div>
+    
+    <div class="section">
+      <h2>2. How We Use Your Information</h2>
+      <p>We use the information we collect for various purposes, including to:</p>
+      <ul>
+        <li>Provide, maintain, and improve our services</li>
+        <li>Process and complete transactions</li>
+        <li>Send you technical notices, updates, security alerts, and support messages</li>
+        <li>Respond to your comments, questions, and requests</li>
+        <li>Monitor and analyze trends, usage, and activities in connection with our services</li>
+        <li>Detect, investigate, and prevent fraudulent transactions and other illegal activities</li>
+        <li>Personalize your experience</li>
+      </ul>
+    </div>
+    
+    <div class="section">
+      <h2>3. Chrome Storage and Local Data</h2>
+      <p>Our extension uses Chrome's storage API to store:</p>
+      <ul>
+        <li>Your login status</li>
+        <li>User preferences</li>
+        <li>Usage statistics</li>
+        <li>Extension settings</li>
+      </ul>
+      
+      <p>This data is stored locally on your device and synced with your Chrome account. We do not have direct access to this data unless you explicitly share it with us (e.g., for support purposes).</p>
+    </div>
+    
+    <div class="section">
+      <h2>4. Data Sharing and Disclosure</h2>
+      <p>We may share your information in the following situations:</p>
+      
+      <h3>4.1 Service Providers</h3>
+      <p>We may share your information with third-party vendors, service providers, and other third parties who perform services on our behalf.</p>
+      
+      <h3>4.2 Legal Requirements</h3>
+      <p>We may disclose your information where required to do so by law or in response to valid requests by public authorities.</p>
+      
+      <h3>4.3 Business Transfers</h3>
+      <p>We may share or transfer your information in connection with, or during negotiations of, any merger, sale of company assets, financing, or acquisition of all or a portion of our business to another company.</p>
+      
+      <h3>4.4 With Your Consent</h3>
+      <p>We may disclose your personal information for any other purpose with your consent.</p>
+    </div>
+    
+    <div class="section">
+      <h2>5. Data Security</h2>
+      <p>We have implemented appropriate technical and organizational security measures designed to protect the security of any personal information we process. However, despite our safeguards and efforts to secure your information, no electronic transmission over the Internet or information storage technology can be guaranteed to be 100% secure.</p>
+    </div>
+    
+    <div class="section">
+      <h2>6. Your Data Protection Rights</h2>
+      <p>Depending on your location, you may have the following rights regarding your personal data:</p>
+      <ul>
+        <li><strong>Right to Access</strong> - You have the right to request copies of your personal data.</li>
+        <li><strong>Right to Rectification</strong> - You have the right to request that we correct any information you believe is inaccurate or complete information you believe is incomplete.</li>
+        <li><strong>Right to Erasure</strong> - You have the right to request that we erase your personal data, under certain conditions.</li>
+        <li><strong>Right to Restrict Processing</strong> - You have the right to request that we restrict the processing of your personal data, under certain conditions.</li>
+        <li><strong>Right to Object to Processing</strong> - You have the right to object to our processing of your personal data, under certain conditions.</li>
+        <li><strong>Right to Data Portability</strong> - You have the right to request that we transfer the data we have collected to another organization, or directly to you, under certain conditions.</li>
+      </ul>
+      
+      <p>To exercise any of these rights, please contact us using the information provided in the "Contact Us" section.</p>
+    </div>
+    
+    <div class="section">
+      <h2>7. Children's Privacy</h2>
+      <p>Our Service is not directed to anyone under the age of 13. We do not knowingly collect personally identifiable information from anyone under the age of 13. If you are a parent or guardian and you are aware that your child has provided us with personal data, please contact us.</p>
+    </div>
+    
+    <div class="section">
+      <h2>8. Changes to This Privacy Policy</h2>
+      <p>We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last Updated" date.</p>
+      
+      <p>You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.</p>
+    </div>
+    
+    <div class="section">
+      <h2>9. Contact Us</h2>
+      <p>If you have any questions about this Privacy Policy, please contact us:</p>
+      <p>Email: <a href="mailto:m.ishaqbannu@gmail.com">m.ishaqbannu@gmail.com</a></p>
+    </div>
+    
+    <div class="footer">
+      <a href="index.html" class="back-button">Back to Home</a>
+      <p>&copy; <span id="current-year">2024</span> Image to Prompt. All rights reserved.</p>
+    </div>
+  </div>
+  
+  <!-- Include web version of common.js -->
+  <script src="common.js"></script>
+</body>
+</html>
